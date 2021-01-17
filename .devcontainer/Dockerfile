@@ -5,4 +5,4 @@ FROM racket/racket
 # USER xterm
 # WORKDIR /home/xterm
 
-# RUN raco pkg install --auto racket-langserver
+RUN raco pkg install --auto racket-langserver
