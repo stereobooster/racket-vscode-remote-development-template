@@ -1,7 +1,10 @@
 FROM racket/racket
 
-RUN raco pkg install --auto racket-langserver
+RUN apt-get update \
+        && apt-get -y install --no-install-recommends curl xvfb git build-essential xauth \
+        && apt-get autoremove -y \
+        && apt-get clean -y
 
-RUN apt-get update && apt-get install -y xvfb
+RUN raco pkg install --auto racket-langserver
 
 RUN echo 'export FONTCONFIG_PATH=/etc/fonts' >>~/.bashrc
