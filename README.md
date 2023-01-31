@@ -13,4 +13,9 @@ You can check that first link for the full details of how to get set up to use V
 
 ## TODO
 
-- [Language server doesn't work](https://github.com/Eugleo/magic-racket/issues/51)
+- [Built-in bracket colorization](https://code.visualstudio.com/blogs/2021/09/29/bracket-pair-colorization)
+    - https://blog.scottlowe.org/2020/03/08/modifying-visual-studio-code-bracketing-behavior/
+- paredit
+    - [strict-paredit](https://marketplace.visualstudio.com/items?itemName=ailisp.strict-paredit)
+    - [paredit](https://marketplace.visualstudio.com/items?itemName=clptn.code-paredit)
+
