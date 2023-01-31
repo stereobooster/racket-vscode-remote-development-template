@@ -13,4 +13,4 @@ You can check that first link for the full details of how to get set up to use V
 
 ## TODO
 
-- Language server doesn't work
+- [Language server doesn't work](https://github.com/Eugleo/magic-racket/issues/51)
